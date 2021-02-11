@@ -1,0 +1,18 @@
+{
+  "name": "ServiceTracker",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "watch": "tsc *.ts --watch --sourceMap --outDir ./build"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.25",
+    "@types/typescript": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "typescript": "^4.1.5"
+  }
+}
